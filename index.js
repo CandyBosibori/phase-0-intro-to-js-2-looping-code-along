@@ -12,8 +12,11 @@ function writeCards(names, wedding){
 }
 
 
+
 function countDown(startingNumber) {
-    for (let i = startingNumber; i >= 0; i--) {
-        console.log(i);
+    while (startingNumber >= 0) {
+        console.log(startingNumber);
+        startingNumber--;
     }
 }
+npm
